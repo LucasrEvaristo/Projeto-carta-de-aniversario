@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+   --cor-principal: green;
+   --cor-secundaria: white;
+   --fonte-primaria: Arial, Helvetica, sans-serif;
+   --cor-terceira:rgba(65, 66, 68, 0.192);
+}
+
+body{
+    font-family: var(--fonte-primaria);
+    font-weight: 400px;
+    background-color: var(--cor-terceira);
+    height: 100vh;
+}
+
+/* COMEÇANDO ESTILIZAÇÃO DO HEADER */
+.titulo{
+background-color: var(--cor-principal);
+padding: 1em 0 1em 0;
+font-weight: bold;
+}
+
+.titulo__link > a:hover{
+    color: rgba(35, 158, 10, 0.575);
+}
+
+.titulo__link{
+    margin-left: 10%;
+}
+
+.titulo__link > a{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    margin: 0 0 0 2em;
+}
+
+/* FINALIZADO A ESTILIZAÇÃO DO HEADER */
+
+
+
+/* ESTILIZANDO O MAIN */
+.feliz__aniversario{
+    text-align: center;
+}
+
+
+.principal__titulo{
+    margin: 10em 4em 0 0;
+}
+
+
+.imagem__principal{
+    margin: 4em 2em 0 0;
+}
+
+
+.principal__aniversario{
+    color: var(--cor-principal);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.principal__carta__titulo{
+margin: 3em 0 2em 0;
+text-align: center;
+color: var(--cor-principal);
+}
+
+.principal__carta__titulo__paragrafo{
+    text-align: center;
+    margin: 0 2em 2em 2em;
+    color: var(--cor-principal);
+}
+
+
+
+/* ESTILIZANDO SECTION "PRINCIPAL__FOTOS" */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+.principal__fotos__cartas{
+    width: 25.5%;
+    display: block;
+    margin: auto;
+}
+
+.principal__fotos__cartas:hover{
+    background-color: rgba(0, 128, 0, 0.123);
+}
+
+
+
+/* ESTILIZANDO RODAPE */
+.rodape{
+    background-color: var(--cor-principal);
+    color: white;
+    font-size: 400px;
+    text-align: center;
+    font-size: 14px;
+    padding: 3em;
+    line-height: 2em;
+}
+
+
+
+/* TAMANHO DA IMAGEM */
+img{
+    width: 20%;
+}

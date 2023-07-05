@@ -31,7 +31,7 @@ font-weight: bold;
 }
 
 .titulo__link{
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .titulo__link > a{
@@ -56,7 +56,8 @@ font-weight: bold;
 
 
 .imagem__principal{
-    margin: 4em 2em 0 0;
+    margin: 4em -4em 0 0;
+
 }
 
 
